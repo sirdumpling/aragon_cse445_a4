@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<xs:schema xmlns:xs="https://www.w3.org/2001/XMLSchema"> -->
+
+  <!-- The "Book" element -->
+  <xs:element name="NationalParks">
+    <xs:complexType>
+      <xs:sequence>
+
+        <!-- Child elements with default values -->
+        <xs:element name="NationalPark" type="xs:string"/>
+        <xs:element name="Author" type="xs:string" default="Unknown Author"/>
+        <xs:element name="PublicationYear" type="xs:gYear" default="2022"/>
+        <xs:element name="Price" type="xs:decimal"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

@@ -23,12 +23,12 @@
 							  <xs:element name="City" type="xs:string"/>
 							  <xs:element name="State" type="xs:string"/>
 							  <xs:element name="Zip" type="ZipType"/>
-							  <xs:element name="NearestAirport" type="xs:string" minOccurs="1" maxOccurs="1"/>
+							  <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
 						  </xs:sequence>
 					  </xs:complexType>
 				  </xs:element>
 
-				  <xs:element name="Rating" type="xs:decimal" minOccurs="0" maxOccurs="1"/>
+				  <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
 				  
 			  </xs:sequence>
 		  </xs:complexType>

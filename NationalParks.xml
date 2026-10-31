@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NationalParks>
+    <NationalPark Rating="4.8">
+        <Name>Grand Canyon National Park</Name>
+        <Phone>928-638-7888</Phone>
+        <Phone>928-638-7798</Phone>
+        <Address NearestAirport="FlagStaff">
+            <Number>20</Number>
+            <Street>South Entrance Road</Street>
+            <City>Grand Canyon</City>
+            <State>AZ</State>
+            <Zip>86023</Zip>
+        </Address>
+    </NationalPark>
+
+    <NationalPark>
+        <Name>Saguaro National Park</Name>
+        <Phone>520-733-5153</Phone>
+        <Address NearestAirport="Tuscon">
+            <Number>3693</Number>
+            <Street>South Old Spanish Trail</Street>
+            <City>Tuscon</City>
+            <State>AZ</State>
+            <Zip>885730</Zip>
+        </Address>
+    </NationalPark>
+	
+	<NationalPark Rating="4.8">
+        <Name>Petrified Forest National Park</Name>
+        <Phone>928-524-6228</Phone>
+        <Address NearestAirport="FlagStaff">
+            <Number>311</Number>
+            <Street>Interstate 40</Street>
+            <City>Petrified Forest</City>
+            <State>AZ</State>
+            <Zip>86028</Zip>
+        </Address>
+    </NationalPark>
+</NationalParks>

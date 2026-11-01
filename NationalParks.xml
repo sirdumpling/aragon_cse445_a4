@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<NationalParks>
+
+<NationalParks xmlns="https://sirdumpling.github.io/aragon_cse445_a4" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="https://sirdumpling.github.io/aragon_cse445_a4 https://sirdumpling.github.io/aragon_cse445_a4/NationalParks.xsd">
     <NationalPark Rating="4.8">
         <Name>Grand Canyon National Park</Name>
         <Phone>928-638-7888</Phone>

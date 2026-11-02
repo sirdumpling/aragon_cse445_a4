@@ -18,7 +18,6 @@
 				  <!--Address element has many children. Let's put them into a structures sequence left to right.-->
 				  <xs:element name="Address">
 					  <xs:complexType>
-						  <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
 						  <xs:sequence>
 							  <xs:element name="Number" type="xs:integer"/>
 							  <xs:element name="Street" type="xs:string"/>
@@ -26,6 +25,7 @@
 							  <xs:element name="State" type="xs:string"/>
 							  <xs:element name="Zip" type="ZipType"/>
 						  </xs:sequence>
+					  <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
 					  </xs:complexType>
 				  </xs:element>
 			  </xs:sequence>

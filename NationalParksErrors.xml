@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--ERRORS FILE-->
+<!-- ERROR 1: Misnamed root element-->
+<NationalPark xmlns="https://sirdumpling.github.io/aragon_cse445_a4" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="https://sirdumpling.github.io/aragon_cse445_a4 https://sirdumpling.github.io/aragon_cse445_a4/NationalParks.xsd">
+    <NationalPark Rating="4.8">
+        <Name>Grand Canyon National Park</Name>
+        <Phone>928-638-7888</Phone>
+        <Phone>928-638-7798</Phone>
+        <Address NearestAirport="FlagStaff">
+            <Number>20</Number>
+            <Street>South Entrance Road</Street>
+            <City>Grand Canyon</City>
+            <State>AZ</State>
+            <Zip>86023</Zip>
+        </Address>
+    </NationalPark>
+
+	<!--ERROR 2: Required attribute (airport) missing-->
+    <NationalPark>
+        <Name>Saguaro National Park</Name>
+        <Phone>520-733-5153</Phone>
+        <Address>
+            <Number>3693</Number>
+            <Street>South Old Spanish Trail</Street>
+            <City>Tuscon</City>
+            <State>AZ</State>
+            <Zip>85730</Zip>
+        </Address>
+    </NationalPark>
+	
+	<!--ERROR 3: No Phone element -->
+	<NationalPark Rating="4.8">
+        <Name>Petrified Forest National Park</Name>
+        <Phone>928-524-6228</Phone>
+        <Address NearestAirport="FlagStaff">
+            <Number>311</Number>
+            <Street>Interstate 40</Street>
+            <City>Petrified Forest</City>
+            <State>AZ</State>
+            <Zip>86028</Zip>
+        </Address>
+    </NationalPark>
+	
+	<!--ERROR 4: Address has no closing tag -->
+	<NationalPark Rating="4.8">
+        <Name>Zion National Park</Name>
+        <Phone>435-772-3256</Phone>
+        <Address NearestAirport="St. George">
+            <Number>1</Number>
+            <Street>Zion Park Blvd</Street>
+            <City>Springdale</City>
+            <State>UT</State>
+            <Zip>84767</Zip>
+        
+    </NationalPark>
+	
+	<NationalPark>
+        <Name>Mesa Verde National Park</Name>
+        <Phone>970-529-4465</Phone>
+		<Phone>970-529-4647</Phone>
+        <Address NearestAirport="Cortez">
+            <Number>34840</Number>
+            <Street>Hwy 160</Street>
+            <City>Mancos</City>
+            <State>CO</State>
+            <Zip>81328</Zip>
+        </Address>
+    </NationalPark>
+	
+	<NationalPark Rating="4.9">
+        <Name>Joshua Tree National Park</Name>
+        <Phone>760-367-5500</Phone>
+        <Address NearestAirport="Palm Springs">
+            <Number>74485</Number>
+            <Street>National Park Drive</Street>
+            <City>Twentynine Palms</City>
+            <State>CA</State>
+            <Zip>92277-3597</Zip>
+        </Address>
+    </NationalPark>
+	
+	<!-- ERROR 5: Two names for one park-->
+	<NationalPark>
+        <Name>Olympic National Park</Name>
+		<Name>ERROR 5 TEST</Name>
+        <Phone>360-565-3130</Phone>
+		<Phone>360-565-3131</Phone>
+        <Address NearestAirport="Seattle-Tacoma">
+            <Number>3002</Number>
+            <Street>Mount Angeles Road</Street>
+            <City>Port Angeles</City>
+            <State>WA</State>
+            <Zip>98362</Zip>
+        </Address>
+    </NationalPark>
+	
+	<NationalPark Rating="4.9">
+        <Name>Rocky Mountain National Park</Name>
+        <Phone>970-586-1206</Phone>
+		<Phone>970-586-1222</Phone>
+        <Address NearestAirport="Denver">
+            <Number>1000</Number>
+            <Street>US Hwy 36</Street>
+            <City>Estes Park</City>
+            <State>CO</State>
+            <Zip>80517</Zip>
+        </Address>
+    </NationalPark>
+	
+	<NationalPark>
+        <Name>Great Sand Dunes National Park</Name>
+        <Phone>719-378-6395</Phone>
+		<Phone>719-589-5807</Phone>
+        <Address NearestAirport="San Luis Valley">
+            <Number>11999</Number>
+            <Street>State Hwy 150</Street>
+            <City>Mosca</City>
+            <State>CO</State>
+            <Zip>81146</Zip>
+        </Address>
+    </NationalPark>
+	
+	<NationalPark>
+        <Name>Death Valley National Park</Name>
+        <Phone>760-786-3200</Phone>
+        <Address NearestAirport="Las Vegas">
+            <Number>579</Number>
+            <Street>Death Valley</Street>
+            <City>Death Valley</City>
+            <State>CA</State>
+            <Zip>92328</Zip>
+        </Address>
+    </NationalPark>
+	
+</NationalPark>

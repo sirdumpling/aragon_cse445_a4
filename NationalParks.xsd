@@ -3,8 +3,8 @@
 	xmlns="https://sirdumpling.github.io/aragon_cse445_a4" elementFormDefault="qualified">
 
   <!-- National Parks root element -->
-  <xs:element name="NationalParks" type="NatlParksType">
-    <xs:complexType name="NatlParksType">
+  <xs:element name="NationalParks">
+    <xs:complexType>
       <xs:sequence>
 		
 		<!-- National park first child element -->
@@ -16,8 +16,8 @@
 				  <xs:element name="Phone" type="PhoneType" minOccurs="1" maxOccurs="unbounded"/>
 				
 				  <!--Address element has many children. Let's put them into a structures sequence left to right.-->
-				  <xs:element name="Address" type="AddressType" minOccurs="1" maxOccurs="1">
-					  <xs:complexType name="AddressType">
+				  <xs:element name="Address">
+					  <xs:complexType>
 						  <xs:sequence>
 							  <xs:element name="Number" type="xs:integer"/>
 							  <xs:element name="Street" type="xs:string"/>
@@ -26,7 +26,7 @@
 							  <xs:element name="Zip" type="ZipType"/>
 						  </xs:sequence>
 
-					  	<xs:attribute name="NearestAirport" type="xs:string" use="required"/>
+					  <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
 					  
 					  </xs:complexType>
 				  </xs:element>
@@ -54,4 +54,3 @@
 	</xs:simpleType>
 	
 </xs:schema>
-
